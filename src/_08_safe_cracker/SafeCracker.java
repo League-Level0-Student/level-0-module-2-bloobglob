@@ -1,4 +1,4 @@
-//    Copyright (c) The League of Amazing Programmers 2013-2019
+ //    Copyright (c) The League of Amazing Programmers 2013-2019
 //    Level 0
 
 
@@ -22,8 +22,9 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
-		
-
+	int secretCode = new Random().nextInt(100);
+	for(int i = 0; i < 100; i++)
+tryCode(9999999-i);
 	}
 
 	static void tryCode(int guess) {
